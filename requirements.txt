@@ -1,0 +1,33 @@
+# Base runtime dependencies (mirroring pyproject.toml)
+accelerate>=1.7.0
+datasets>=3.6.0,<4.0.0
+jupyter>=1.1.1
+lm-eval[vllm,api]>=0.4.9.1
+matplotlib>=3.10.3
+python-dotenv>=1.1.0
+seaborn>=0.13.2
+torch==2.7.1
+transformers==4.55.0
+umap-learn>=0.5.7
+vllm==0.10.0  # GPU-only; comment out on mac/CPU
+deepspeed>=0.17.4  # may fail on mac/CPU; optional for code reading
+trl>=0.21.0
+hatchling>=1.27.0
+wandb>=0.21.1
+# crfm-helm
+# evalscope
+
+# Editable local deps (third-party submodules)
+-e third-party/evalplus
+-e third-party/LiveCodeBench
+-e third-party/helm
+-e third-party/evalscope
+
+# Dev extras (optional)
+kaleido>=1.0.0
+pandas>=2.3.0
+plotly>=6.1.2
+pytest>=8.4.1
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
