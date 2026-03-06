@@ -5,7 +5,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](./.python-version)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.1-ee4c2c.svg)](./pyproject.toml)
-[![Transformers](https://img.shields.io/badge/Transformers-4.55.0-fcc624.svg)](./pyproject.toml)
+[![Transformers](https://img.shields.io/badge/Transformers-5.0.0dev-fcc624.svg)](./pyproject.toml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](./LICENSE)
 
 </div>

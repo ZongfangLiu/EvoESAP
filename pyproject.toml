@@ -17,7 +17,7 @@ dependencies = [
     "python-dotenv>=1.1.0",
     "seaborn>=0.13.2",
     "torch==2.7.1",
-    "transformers==4.55.0",
+    "transformers==5.0.0dev",
     "umap-learn>=0.5.7",
     # "vllm==0.10.0",
     "vllm==0.13.0",
